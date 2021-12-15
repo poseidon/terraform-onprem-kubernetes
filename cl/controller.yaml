@@ -82,7 +82,7 @@ systemd:
           -v /run:/run \
           -v /sys/fs/cgroup:/sys/fs/cgroup \
           -v /var/lib/calico:/var/lib/calico:ro \
-          -v /var/lib/docker:/var/lib/docker \
+          -v /var/lib/containerd:/var/lib/containerd \
           -v /var/lib/kubelet:/var/lib/kubelet:rshared \
           -v /var/log:/var/log \
           -v /opt/cni/bin:/opt/cni/bin \
